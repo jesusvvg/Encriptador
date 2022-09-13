@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    /*background-color:blue;*/
+}
+
+.logo{
+    margin: 20 0 0 0;
+    
+}
+
+main{
+    width: 100%;
+    height: 80%;
+    /*background: red;*/
+    display: flex;
+    
+}
+
+body{
+    background:linear-gradient(45deg,#a8f209,rgb(36, 35, 35));
+}
+
+section{
+    width: 40%;
+    height: 100%;
+    /*background-color: green;*/
+}
+
+.seccion1{
+    width: 65%;
+}
+
+.area{
+    width: 80%;
+    height: 70%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    resize: none;
+    font-size: 25px;
+    border: none;
+    border-radius: 32px;
+    text-align:center;
+    color: #0A3871;
+    padding-top: 20px;
+    box-shadow: 20px 20px 30px black;    
+}
+
+.letras-minusculas{
+    text-align: center;
+    margin-top: 15;
+    font-weight: bold;
+}
+
+.encriptar{
+    width: 25%;
+    height: 40px;
+    margin-left: 200 ;
+    margin-top: 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    border-color: #0A3871;
+    background-color: #0A3871;
+    color: white;
+    box-shadow: 10px 10px 30px black;
+}
+
+.encriptar:active{
+    background-color: #3c608c;
+    transform: scale(1.1);
+}
+
+.desencriptar{
+    width: 25%;
+    height: 40px;
+    margin-left: 10;
+    font-size: 15px;
+    border-radius: 10px;
+    border-color: #0A3871;
+    box-shadow: 10px 10px 30px black;
+    
+}
+.desencriptar:active{
+    background-color: #798ea8;
+    box-sizing: border-box;
+    transform: scale(1.1);
+}
+
+
+.seccion2{
+    width: 25%;
+    height: 80%;
+    background-color: white;
+    border-radius: 32px;
+    margin-left: 30px;
+    box-shadow: 10px 10px 30px black;
+    
+    
+}
+
+.contenedor_muneco{
+   width: 100%;
+   height: 50%;
+   margin-top: 30px;
+}
+
+.contenedor_h3{
+    width: 100%;
+    height: 15%;
+    text-align: center;
+    margin-top: 80px;
+  
+}
+
+.contenedor-parrafo{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    font-size: 15px;
+   
+    
+}
+
+.copiar{
+    width: 100%;
+    height: 40;
+    box-shadow: 10px 10px 30px black;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.copiar:active{
+    background-color: #798ea8;
+    box-sizing: border-box;
+    transform: scale(1.05);
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    /*background-color: blue;*/
+    text-align: center;
+    font-size: 20px;
+}
