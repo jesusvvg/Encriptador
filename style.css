@@ -64,8 +64,11 @@ body{
     text-align:center;
     color: #0A3871;
     padding-top: 20px;
-    box-shadow: 20px 20px 30px black;    
+    box-shadow: 20px 20px 30px black; 
+          
 }
+
+
 
 .letras-minusculas{
     text-align: center;
@@ -181,3 +184,4 @@ footer{
 .ocultar{
     display: none;
 }
+
